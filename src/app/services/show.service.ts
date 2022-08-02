@@ -10,7 +10,7 @@ export class ShowService {
   constructor(private httpClient: HttpClient) {}
 
   getTvShow(term: string): Observable<IShow[] | []> {
-    if (term === ' ') {
+    if (term === '') {
       return of([]);
     }
     return this.httpClient
