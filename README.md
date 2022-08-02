@@ -2,7 +2,8 @@
 # Demo
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fcc5f201-1db5-4ce1-9ab9-fd9cee27dc7c/deploy-status)](https://app.netlify.com/sites/stirring-zabaione-227f0d/deploys)
 
-Link : stirring-zabaione-227f0d.netlify.app
+Link : [DEMO](stirring-zabaione-227f0d.netlify.app)
+
 
 # Menlo79
 
