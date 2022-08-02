@@ -1,0 +1,14 @@
+<ng-container *ngIf="showDetails$ | async as details">
+  <h1>
+    Name: <span>{{ details.name }}</span>
+  </h1>
+  <h1>
+    Type: <span>{{ details.type }}</span>
+  </h1>
+  <h1>
+    Language: <span>{{ details.language }}</span>
+  </h1>
+  <h1>
+    Premiered: <span>{{ details.premiered }}</span>
+  </h1>
+</ng-container>

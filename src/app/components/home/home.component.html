@@ -1,0 +1,17 @@
+<h1>Search your TV Show</h1>
+<input
+  type="text"
+  #tvShowSearchInput
+  class="search-input"
+  placeholder="Type TV show name"
+/>
+<h2>Found: {{ showsResponse.length }} hits</h2>
+<div class="row" *ngIf="isSearching">
+  <div class="col-12 text-center">
+    <h4>Searching ...</h4>
+  </div>
+</div>
+
+<div *ngFor="let singleShow of showsResponse" class="city-list">
+  <card [singleShow]="singleShow"></card>
+</div>
